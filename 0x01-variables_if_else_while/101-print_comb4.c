@@ -11,7 +11,7 @@ int main(void)
 	int i = '0';
 	int j = '0';
 	int k = '0';
-	
+
 	while (i <= '7')
 	{
 		while (j <= '8')
@@ -28,13 +28,11 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-				
 				}
-				k++;	
+				k++;
 			}
 			k = '0';
-			j++;
-			
+			j++;	
 		}
 		j = '0';
 		i++;
