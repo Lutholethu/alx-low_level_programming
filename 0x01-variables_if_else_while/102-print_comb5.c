@@ -12,9 +12,9 @@ int main(void)
 	int i = '0';
 	int j = '0';
 
-	for  (i = 0 ; i <= 99)
+	for (i = 0 ; i <= 99; i++)
 	{
-		while (j = 0 ; j <= 99)
+		for (j = 0 ; j <= 99; j++)
 		{
 			if (i < j && i != j)
 			{
@@ -30,10 +30,9 @@ int main(void)
 
 				}
 			}
-			j++;	
+
 		}
-		j = '0';
-		i++;
+		
 
 	}
 	putchar('\n');
